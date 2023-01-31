@@ -1,1 +1,106 @@
-/* Add screen styles below */
+body {
+    margin: 0;
+
+    background: fixed;
+    background-color: #FAFBFC;
+
+    border-top: 20px solid #528ee6;
+}
+
+h1 {
+    font-family: "Helvetica", "Roboto";
+    font-size: 35pt;
+    font-weight: 700;
+    color: #528ee6;
+
+    margin: 10px;
+
+    text-align: center;
+}
+
+h2 {
+    font-family: "Helvetica", "Roboto";
+    font-size: 30pt;
+    font-weight: 500;
+    color: #528ee6;
+
+    margin: 10px;
+
+    text-align: center;
+}
+
+.box {
+    left: 50%;
+    transform: translate(50%, 0%);
+
+    align-items: center;
+    justify-content: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 50%;
+}
+
+.big {
+    left: 5%;
+    transform: translate(5%, 0%);
+    width: 90%;
+}
+
+.image {
+    width: 408px;
+    height: 307px;
+    overflow: hidden;
+
+    border-radius: 10px;
+
+    background: fixed;
+    background-size: contain;
+}
+
+.big-image {
+    height: 85vh;
+    overflow: hidden;
+
+    background: fixed;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.file-001 {
+    background-image: url("assets/001.jpg");
+}
+
+.file-002 {
+    background-image: url("assets/002.jpg");
+}
+
+.file-003 {
+    background-image: url("assets/003.jpg");
+}
+
+.file-004 {
+    background-image: url("assets/004.jpg");
+}
+
+.file-005 {
+    background-image: url("assets/005.jpg");
+}
+
+.file-006 {
+    background-image: url("assets/006.jpg");
+}
+
+.file-007 {
+    background-image: url("assets/007.jpg");
+}
+
+.file-008 {
+    background-image: url("assets/008.jpg");
+}
+
+.file-009 {
+    background-image: url("assets/009.jpg");
+}
